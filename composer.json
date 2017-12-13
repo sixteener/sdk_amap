@@ -1,0 +1,21 @@
+{
+  "name" : "sixteener/sdk_amap",
+  "description": "高德地图SDK-WEB服务",
+  "keywords": [
+      "amap",
+      "gaode",
+      "amapsdk"
+  ],
+  "license": "MIT",
+  "authors" : [ {
+    "name" : "sixteener"
+  } ],
+  "require" : {
+    "php" : ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amap\\": "src/"
+    }
+  }
+}
